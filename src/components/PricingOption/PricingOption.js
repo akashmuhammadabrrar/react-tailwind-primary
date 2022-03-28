@@ -18,8 +18,8 @@ const PricingOption = (props) => {
                     benefits.map(benefit => <Benefit benefit={benefit}></Benefit>)
                 }
             </div>
-            <button className='bg-orange-400 flex justify-center w-full m-2 p-2 rounded'>
-                Buy Now <ArrowRightIcon className='w-6 h-6'></ArrowRightIcon>
+            <button className='bg-orange-400 flex justify-center w-full m-2 p-2 rounded mt-6 text-white hover:text-red-500 font-bold'>
+                Buy Now <ArrowRightIcon className='w-6 h-6 ml-2'></ArrowRightIcon>
             </button>
         </div>
     );
